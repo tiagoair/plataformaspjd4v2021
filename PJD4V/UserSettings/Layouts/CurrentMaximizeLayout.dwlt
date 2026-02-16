@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 7554
+  controlID: 42
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 7555
+  controlID: 43
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 7556
+  controlID: 44
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 7557
+  controlID: 45
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -223,8 +223,8 @@ MonoBehaviour:
     y: 0
     width: 288
     height: 555
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 287
     height: 529
   m_SerializedDataModeController:
@@ -269,9 +269,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 42870000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7aaefdffa8c2fdff02cbfdffcca4feff04a6feff26a6feffdaa8feff78d9feff0cfbffff
+      m_SelectedIDs: 3e42ffff
+      m_LastClickedID: -48578
+      m_ExpandedIDs: 4e42ffff9244ffff0aa4000010a40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -890,9 +890,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -12.237699, y: 3.2024608, z: -0.12820895}
+    m_Target: {x: -1.7706807, y: 1.7121239, z: -0.116638735}
     speed: 2
-    m_Value: {x: -12.237699, y: 3.2024608, z: -0.12820895}
+    m_Value: {x: -1.7706807, y: 1.7121239, z: -0.116638735}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -942,9 +942,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.539724
+    m_Target: 16.382664
     speed: 2
-    m_Value: 17.539724
+    m_Value: 16.382664
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1311,14 +1311,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 61
-  m_LastProjectPath: C:\Users\2303267\git\plataformaspjd4v2021\PJD4V
+  m_LastProjectPath: C:\Users\20231170150045\Documents\GitHub\plataformaspjd4v2021\PJD4V
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 240}
-    m_SelectedIDs: 7c850000
-    m_LastClickedID: 34172
-    m_ExpandedIDs: 00000000fa830000fc8300007485000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 88a30000
+    m_LastClickedID: 41864
+    m_ExpandedIDs: 0000000076a3000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1347,7 +1347,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa830000fc8300007485000000ca9a3bffffff7f
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1373,9 +1373,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 42870000
-    m_LastClickedInstanceID: 34626
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 3e42ffff
+    m_LastClickedInstanceID: -48578
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f2830000868800008e920000965d0200345a0200b69600007e960000ca830000f086000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 7619
+  controlID: 107
   draggingID: 0
 --- !u!114 &16
 MonoBehaviour:
