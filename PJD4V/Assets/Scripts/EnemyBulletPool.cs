@@ -16,6 +16,8 @@ public class EnemyBulletPool : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            eBulletPool = new ObjectPool<EnemyBulletController>(CreateBullet, GetBullet, ReleaseBullet, DestroyBullet, 
+                false, 30, 100);
         }
         else
         {
@@ -25,12 +27,22 @@ public class EnemyBulletPool : MonoBehaviour
 
     private EnemyBulletController CreateBullet()
     {
-        return Instantiate(eBulletPrefab, transform).GetComponent<EnemyBulletController>();
+       return Instantiate(eBulletPrefab, transform).GetComponent<EnemyBulletController>();;
     }
 
     private void GetBullet(EnemyBulletController bullet)
     {
-        
+        bullet.gameObject.SetActive(true);
     }
-    
+
+    private void ReleaseBullet(EnemyBulletController bullet)
+    {
+        bullet.gameObject.SetActive(false);
+        bullet.transform.SetParent(transform);
+    }
+
+    private void DestroyBullet(EnemyBulletController bullet)
+    {
+        Destroy(bullet.gameObject);
+    }
 }
